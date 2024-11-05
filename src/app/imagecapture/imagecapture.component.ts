@@ -75,7 +75,7 @@ export class ImagecaptureComponent {
   
     // Step 2: Apply adaptive thresholding
     const processedData = new Uint8ClampedArray(data.length);
-    const blockSize = 15; // Size of the neighborhood
+    const blockSize = 10; // Size of the neighborhood
     const C = 5; // Constant subtracted from mean
   
     for (let y = 0; y < canvas.height; y++) {
