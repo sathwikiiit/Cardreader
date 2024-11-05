@@ -1,0 +1,55 @@
+<div class="image-upload-container">
+    <form class="upload-form">
+      <label for="imageUpload" class="upload-label">Upload your Image</label>
+      <div class="upload-button-container">
+        <label for="imageUpload" class="upload-button">Choose File</label>
+        <input 
+          id="imageUpload"
+          type="file" 
+          accept="image/*" 
+          capture="camera" 
+          (change)="onImageSelected($event)"
+          class="upload-input"
+        >
+      </div>
+      <p class="upload-instruction">Tap to upload an image from your device.</p>
+      <p class="selected-file-name" *ngIf="selectedImage">Selected File: {{ selectedImage }}</p>
+    </form>
+  
+    <div class="image-preview" *ngIf="extractedimage">
+      <h3>Uploaded Image:</h3>
+      <img [src]="extractedimage" alt="Uploaded image" class="preview-image">
+    </div>
+  
+    <div class="license-info" *ngIf="licenseInfo">
+      <h3>Extracted License Information:</h3>
+      <div class="info-field">
+        <label>Driving License Number:</label>
+        <input type="text" [value]="licenseInfo.driving_license_number" readonly>
+      </div>
+      <div class="info-field">
+        <label>Name:</label>
+        <input type="text" [value]="licenseInfo.name" readonly>
+      </div>
+      <div class="info-field">
+        <label>Father's Name:</label>
+        <input type="text" [value]="licenseInfo.father_name" readonly>
+      </div>
+      <div class="info-field">
+        <label>Date of Birth:</label>
+        <input type="text" [value]="licenseInfo.date_of_birth" readonly>
+      </div>
+      <div class="info-field">
+        <label>Address:</label>
+        <input type="text" [value]="licenseInfo.address" readonly>
+      </div>
+      <div class="info-field">
+        <label>Issuing Authority:</label>
+        <input type="text" [value]="licenseInfo.issuing_authority" readonly>
+      </div>
+      <div class="info-field">
+        <label>Issue Date:</label>
+        <input type="text" [value]="licenseInfo.issue_date" readonly>
+      </div>
+    </div>
+  </div>

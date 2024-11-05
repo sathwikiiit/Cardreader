@@ -1,0 +1,82 @@
+.image-upload-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-label {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .upload-button-container {
+    margin: 10px 0;
+  }
+  
+  .upload-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .upload-button:hover {
+    background-color: #45a049;
+  }
+  
+  .upload-input {
+    display: none; /* Hide the default file input */
+  }
+  
+  .upload-instruction {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .selected-file-name {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .image-preview {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .preview-image {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .license-info {
+    margin-top: 20px;
+  }
+  
+  .license-info h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .info-field {
+    margin-bottom: 15px;
+  }
