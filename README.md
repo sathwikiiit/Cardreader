@@ -21,3 +21,7 @@ It needs changes based on use case for now. It is a simpler version. We can crea
 1. **Clone the repository:** 
    ```bash
    git clone https://github.com/your-username/docuville-card-reader.git
+   cd Cardreader
+   ng serve
+   ```
+   for production use ```ng build``` instead
