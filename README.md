@@ -20,7 +20,7 @@ It needs changes based on use case for now. It is a simpler version. We can crea
 Setup Angular CLI in your local env
 **Clone the repository:** 
    ```bash
-   git clone https://github.com/your-username/docuville-card-reader.git
+   git clone https://github.com/sathwikiiit/docuville-card-reader.git
    cd Cardreader
    ng serve
    ```
