@@ -17,8 +17,8 @@ This repository contains my solution for the Docuville.ai Software Engineer Inte
 It needs changes based on use case for now. It is a simpler version. We can create a separate and use server side programming as python to further improve it. We can use tensorflow models.
 
 ## Installation & Running Locally
-
-1. **Clone the repository:** 
+Setup Angular CLI in your local env
+**Clone the repository:** 
    ```bash
    git clone https://github.com/your-username/docuville-card-reader.git
    cd Cardreader
