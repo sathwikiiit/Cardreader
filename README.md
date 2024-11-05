@@ -13,8 +13,6 @@ This repository contains my solution for the Docuville.ai Software Engineer Inte
 
 * **Frontend:** Angular, TypeScript, HTML, CSS
 * **OCR Engine:**  Tesseract.js 
-* **Other:**  [List any additional libraries or tools you used]
-
 ##Scope
 It needs changes based on use case for now. It is a simpler version. We can create a separate and use server side programming as python to further improve it. We can use tensorflow models.
 
